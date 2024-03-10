@@ -1,3 +1,48 @@
 body{
-    background-color: black;
+    background-color: rgba(34, 1, 1, 0.74);
+}
+.landing-page{
+    display:flex;
+}
+h1{
+    color:black;
+}
+.brief-details{
+    display:flex;
+}
+.brief-details img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+}
+.cards{
+    display:flex;
+    padding: 30px;
+}
+.card-hobbies{
+    display:grid;
+    border:1px solid blue;
+    width:260px;
+    border-radius: 5%;
+}
+.card-hobbies h3{
+    text-align: center;
+}
+.card-skills{
+    margin-left:150px;
+    border:1px solid blue;
+    width:250px;
+    border-radius: 5%;
+}
+.card-skills h3{
+    text-align: center;
+}
+.my-motives{
+    border:1px solid blue;
+    border-radius: 5%;
+    width:20%;
+    margin-left:80px;
+}
+.my-motives h3{
+    text-align: center;
 }
